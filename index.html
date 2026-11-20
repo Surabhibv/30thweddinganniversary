@@ -364,9 +364,14 @@ memoryData.forEach((memory, index) => {
       <span class="watch-text">CLICK TO WATCH · ✦</span>
     </div>
 
-    <video id="anniversaryVideo" controls playsinline
+    <!-- <video id="anniversaryVideo" controls playsinline
            preload="metadata" style="display:none;">
       <source src="C:\Users\nresh\OneDrive\Attachments\anniversary spcl\images\video.mp4" type="video/mp4">
+    </video> -->
+
+    <video id="anniversaryVideo" controls playsinline
+           preload="metadata" style="display:none;">
+      <source src="images/video.mp4" type="video/mp4">
     </video>
 
     <div class="cinema-caption">
@@ -1745,8 +1750,11 @@ function playAnniversaryVideo() {
 </section>
 
 <!-- Anniversary song: keep cake-song.mp3 inside your images folder -->
-<audio id="cakeMusic" preload="auto">
+<!-- <audio id="cakeMusic" preload="auto">
     <!-- <source src="C:\Users\nresh\OneDrive\Attachments\anniversary spcl\images\music.mpeg" type="audio/mpeg"> -->
+    <source src="images/music.mpeg" type="audio/mpeg">
+</audio> -->
+<audio id="cakeMusic" preload="auto">
     <source src="images/music.mpeg" type="audio/mpeg">
 </audio>
 
